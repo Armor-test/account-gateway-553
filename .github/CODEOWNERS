@@ -1,0 +1,36 @@
+# CODEOWNERS file for account-gateway-553
+# Global owners - will be requested for all PRs
+* @Armor-test/squad-apps @Armor-test/grp-storage @Armor-test/team-logging
+
+# Directory ownership
+/src/ @Armor-test/team-research @Armor-test/squad-tooling
+/shared/ @Armor-test/team-frontend @Armor-test/grp-payments
+/assets/ @Armor-test/dept-test @Armor-test/dept-reliability @Armor-test/squad-api
+/hooks/ @Armor-test/grp-ui @Armor-test/grp-reporting
+/examples/ @Armor-test/squad-mobile @Armor-test/squad-ux @Armor-test/dept-data
+/modules/ @Armor-test/dept-identity @Armor-test/dept-ui @Armor-test/team-core
+/ui/ @Armor-test/dept-notifications @Armor-test/squad-performance @Armor-test/grp-payments
+/third_party/ @Armor-test/dept-automation @Armor-test/team-reporting @Armor-test/squad-api
+/vendor/ @Armor-test/team-governance @Armor-test/squad-payments
+/plugins/ @Armor-test/team-core @Armor-test/team-governance
+
+# File type ownership
+*.tf @Armor-test/squad-database @Armor-test/dept-release @Armor-test/squad-search
+*.rs @Armor-test/squad-payments @Armor-test/grp-integration @Armor-test/squad-ux
+*.json @Armor-test/dept-ui @Armor-test/grp-ui @Armor-test/dept-automation
+*.proto @Armor-test/dept-reporting @Armor-test/squad-cache
+*.kt @Armor-test/dept-reliability @Armor-test/squad-cloud
+*.toml @Armor-test/squad-database @Armor-test/team-security
+*.yml @Armor-test/squad-reporting @Armor-test/unit-test @Armor-test/dept-release
+*.gradle @Armor-test/unit-test @Armor-test/team-governance
+*.scala @Armor-test/squad-ux @Armor-test/squad-apps
+*.xml @Armor-test/squad-ml @Armor-test/team-security
+*.graphql @Armor-test/team-frontend @Armor-test/squad-tooling @Armor-test/team-reporting
+*.html @Armor-test/squad-qa @Armor-test/team-logging @Armor-test/grp-reporting
+*.c @Armor-test/grp-integration @Armor-test/squad-mobile
+*.swift @Armor-test/team-core @Armor-test/squad-product
+
+# Security and special files
+Dockerfile @Armor-test/devops @Armor-test/infra
+.github/workflows/ @Armor-test/ci-team @Armor-test/devops
+/src/**/security/ @Armor-test/security @Armor-test/compliance
